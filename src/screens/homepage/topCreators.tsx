@@ -19,7 +19,7 @@ export default function TopCreators({variant}: Buttonprops) {
             <Button variant="outline" className="p-5 md:p-7 w-full md:w-64 text-xl hidden md:flex md:text-2xl"><img className="w-4 h-4 md:w-5 md:h-5 mr-2 bg-transparent " src={RocketLaunch} /> View Ranking</Button>
         </div>
         <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-5">
-            {card.slice(0, window.innerWidth <= 480 ? 4 : window.innerWidth <= 840 ? 8 : window.innerWidth <= 1028 ? 12 : card.length).map((item, index) => (
+            {card.slice(0, window.innerWidth <= 480 ? 4 : window.innerWidth <= 840 ? 8 : window.innerWidth <= 1028 ? 12 : card.length).map((index) => (
                 <div key={index} className=" relative flex space-x-2 bg-secondary p-5 rounded-xl lg:items-center lg:justify-center">
                     <p className=" lg:left-3 lg:top-3 font-SpaceMono p-2 bg-background text-[#858584] absolute rounded-full">{index + 1}</p>
                     <div className=" flex items-center space-x-3 lg:flex-col ">
