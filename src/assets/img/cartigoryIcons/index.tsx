@@ -15,3 +15,4 @@ export {default as PaintBrushImage} from './PaintBrushImage.png'
 export {default as PlanetImage} from './PlanetImage.png'
 export {default as SwatchesImage} from './SwatchesImage.png'
 export {default as VideoCameraImage} from './VideoCameraImage.png'
+
