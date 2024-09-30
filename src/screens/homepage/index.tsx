@@ -4,6 +4,8 @@ import TrendingCollection from "./trendingCollection"
 import Categories from "./categories"
 import Discover from "./discover"
 
+import HowItWork from "./howItWork";
+
 export default function Homepage() {
   return (
     <div className=" p-10 w-full h-full">
@@ -12,6 +14,7 @@ export default function Homepage() {
       <TopCreators variant=""/>
       <Categories />
       <Discover />
+      <HowItWork />
     </div>
   )
 }
