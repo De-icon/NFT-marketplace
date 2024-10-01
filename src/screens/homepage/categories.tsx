@@ -1,5 +1,5 @@
 
-import { PaintBrush, PaintBrushImage, Basketball, BasketballImage, Camera, CameraImage,
+import { PaintBrush, PaintBrushImage, Basketball, Camera, CameraImage,
     MagicWand, MagicWandImage, MusicNotes, MusicNotesImage, Planet, PlanetImage, Swatches, SwatchesImage, VideoCamera, VideoCameraImage
   } from "@/assets/img/cartigoryIcons";
 
@@ -14,7 +14,7 @@ const categories = [
     {
         name: "Collectibles",
         icon: Basketball,
-        image: BasketballImage,
+        image: CameraImage,
     },
     {
         name: "Photography",

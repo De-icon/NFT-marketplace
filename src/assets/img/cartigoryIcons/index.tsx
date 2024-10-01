@@ -7,7 +7,7 @@ export {default as Planet} from './Planet.png'
 export {default as Swatches} from './Swatches.png'
 export {default as VideoCamera} from './VideoCamera.png'
 
-export {default as BasketballImage} from './BasketballImage.png'
+
 export {default as CameraImage} from './CameraImage.png'
 export {default as MagicWandImage} from './MagicWandImage.png'
 export {default as MusicNotesImage} from './MusicNotesImage.png'
