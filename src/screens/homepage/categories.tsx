@@ -51,11 +51,11 @@ const categories = [
 export default function Categories() {
   return (
     <div className='  mt-20 w-full'>
-        <div>
+        <div >
             <h1 className=' text-4xl md:text-6xl font-bold font-WorkSans'>Browes Categories</h1>
             
         </div>
-        <div className=" grid md:grid-cols-4 gap-5">
+        <div className=" mt-10 grid md:grid-cols-4 gap-5">
             {categories.map((category, index) => (
                 <div key={index} className=' bg-secondary rounded-3xl shadow-xl overflow-hidden'>
                     <div className=" relative w-full h-2/2">

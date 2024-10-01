@@ -1,4 +1,5 @@
 
+import Footer from "./components/footer"
 import Nav from "./components/Nav"
 import Homepage from "./screens/homepage"
 
@@ -10,7 +11,7 @@ function App() {
     
       <Nav />
       <Homepage />
-    
+      <Footer />
     </>
   )
 }

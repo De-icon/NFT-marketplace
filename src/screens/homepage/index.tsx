@@ -5,6 +5,7 @@ import Categories from "./categories"
 import Discover from "./discover"
 
 import HowItWork from "./howItWork";
+import NewsLetter from "./newsLetter";
 
 export default function Homepage() {
   return (
@@ -15,6 +16,7 @@ export default function Homepage() {
       <Categories />
       <Discover />
       <HowItWork />
+      <NewsLetter />
     </div>
   )
 }
