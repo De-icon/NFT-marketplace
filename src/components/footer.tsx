@@ -13,7 +13,7 @@ import { Input } from "./ui/input";
 export default function Footer() {
   return (
     <div className=" mt-20 p-10 bg-secondary">
-    <div className="  font-WorkSans grid md:grid-cols-3 gap-20">
+    <div className="  font-WorkSans grid md:grid-cols-3 gap-5 md:gap-18">
         <div className=" flex flex-col space-y-3">
             <img className="w-52 cursor-pointer" src={Logo} alt="Logo" />
             <p>NFT marketplace UI created with Anima for Figma.</p>
