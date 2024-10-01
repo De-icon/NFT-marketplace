@@ -7,7 +7,7 @@ interface Buttonprops {
     variant: string
 }
 
-export default function TopCreators({variant}: Buttonprops) {
+export default function TopCreators() {
     
 
     const cards = [
