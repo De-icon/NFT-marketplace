@@ -1,4 +1,4 @@
-import { Avatar6, Avatar1, Avatar2, Avatar3, Avatar4, Avatar5, Avatar7, Avatar8, Avatar9, Avatar10, Avatar11 } from "@/assets/img/profilePic"
+import { Avatar6, Avatar1, Avatar2, Avatar3, Avatar4, Avatar5, Avatar7, Avatar8, Avatar9, Avatar10, } from "@/assets/img/profilePic"
 
 import { Button } from "@/components/ui/button";
 import {RocketLaunch} from "@/assets/img/icons/index"
@@ -70,13 +70,13 @@ export default function TopCreators() {
         },
         {
             name: "MoonDancer",
-            image: Avatar11,
+            image: Avatar1,
             price: "1.63 ETH",
             highestBid: "0.33 wETH",
         },
         {
             name: "MoonDancer",
-            image: Avatar11,
+            image: Avatar2,
             price: "1.63 ETH",
             highestBid: "0.33 wETH",
         },
