@@ -3,9 +3,6 @@ import { Avatar6, Avatar1, Avatar2, Avatar3, Avatar4, Avatar5, Avatar7, Avatar8,
 import { Button } from "@/components/ui/button";
 import {RocketLaunch} from "@/assets/img/icons/index"
 
-interface Buttonprops {
-    variant: string
-}
 
 export default function TopCreators() {
     
