@@ -11,6 +11,7 @@ import MarketPlace from "./screens/marketplacePage";
 import Ranking from "./screens/ranking";
 import ConnectWallet from "./screens/connectWallet";
 import { AuthProvider } from "./utils/AuthContext";
+import UserProfilePage from "./screens/userProfilePage";
 
 
 
@@ -31,6 +32,8 @@ function App() {
             <Route path="/marketplace" element={<MarketPlace/>}/>
             <Route path="/ranking" element={<Ranking/>}/>
             <Route path="/connectWallet" element={<ConnectWallet/>}/>
+            <Route path="/userProfilePage" element={<UserProfilePage/>}/>
+            
         </Route>
 
       </Routes>

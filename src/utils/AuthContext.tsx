@@ -2,6 +2,7 @@ import { createContext, useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { ID} from 'appwrite';
 import { account } from "@/appwriteConfig";
+import { Audio } from 'react-loader-spinner';
 
 const AuthContext = createContext<{
   user: Record<string, unknown> | null
@@ -82,7 +83,22 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
 
     return(
         <AuthContext.Provider value={contextData}>
-            {loading ? <p>Loading...</p> : children}
+            {loading ? 
+            <div className="flex justify-center items-center h-screen">
+                <Audio
+                        height="80"
+                        width="80"
+                        radius="9"
+                        color="#A259FF"
+                        ariaLabel="loading"
+                        wrapperStyle
+                        wrapperClass
+                        
+
+                />
+            </div> 
+            : 
+            children}
         </AuthContext.Provider>
     )
 
