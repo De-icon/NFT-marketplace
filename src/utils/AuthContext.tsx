@@ -93,7 +93,6 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
                         ariaLabel="loading"
                         wrapperStyle
                         wrapperClass
-                        
 
                 />
             </div> 

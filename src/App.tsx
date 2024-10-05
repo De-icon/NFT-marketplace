@@ -12,6 +12,7 @@ import Ranking from "./screens/ranking";
 import ConnectWallet from "./screens/connectWallet";
 import { AuthProvider } from "./utils/AuthContext";
 import UserProfilePage from "./screens/userProfilePage";
+import NFTprofile from "./screens/NFTprofile";
 
 
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/ranking" element={<Ranking/>}/>
             <Route path="/connectWallet" element={<ConnectWallet/>}/>
             <Route path="/userProfilePage" element={<UserProfilePage/>}/>
+            <Route path="/NFTprofile" element={<NFTprofile/>}/>
             
         </Route>
 

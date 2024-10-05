@@ -1,5 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
+import { AlertDialog, AlertDialogAction, AlertDialogContent, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from './ui/alert-dialog';
+
 
 const CountDown: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -28,12 +30,40 @@ const CountDown: React.FC = () => {
 
   return (
     <div className="countdown">
-      <h2>Time Left Until Next Year</h2>
-      <div className="countdown-values">
-        <span>{timeLeft.days} days</span>
-        <span>{timeLeft.hours} hours</span>
-        <span>{timeLeft.minutes} minutes</span>
-        <span>{timeLeft.seconds} seconds</span>
+      
+
+      <div className=' flex flex-col space-y-4 p-6 bg-secondary rounded-2xl max-w-72'>
+        <p>Auction ends in:</p>
+        <div className=' flex space-x-3 items-start justify-center'>
+          <div className=' flex flex-col space-y-3 items-center justify-center'>
+            <h1 className=' font-WorkSans text-4xl font-bold'>{timeLeft.hours}</h1>
+            <p className=' font-SpaceMono text-sm'>Hours</p>
+          </div>
+          <h1 className=' font-WorkSans text-4xl font-bold'>:</h1>
+          <div className=' flex flex-col space-y-3 items-center justify-center'>
+            <h1 className=' font-WorkSans text-4xl font-bold'>{timeLeft.minutes}</h1>
+            <p className=' font-SpaceMono text-sm'>Minutes</p>
+          </div>
+          <h1 className=' font-WorkSans text-4xl font-bold'>:</h1>
+          <div className=' flex flex-col space-y-3 items-center justify-center'>
+            <h1 className=' font-WorkSans text-4xl font-bold'>{timeLeft.seconds}</h1>
+            <p className=' font-SpaceMono text-sm'>Seconds</p>
+          </div>
+
+        </div>
+        <AlertDialog>
+            <AlertDialogTrigger type="submit" className=" w-full font-WorkSans bg-primary p-3 rounded-2xl flex items-center space-x-1 justify-center " >
+                Place Bid
+            </AlertDialogTrigger>
+                <AlertDialogContent>
+                    <AlertDialogHeader>
+                        <AlertDialogTitle>It just a demo App thanks for tring it out ❣️</AlertDialogTitle>
+                        </AlertDialogHeader>
+                        <AlertDialogFooter>
+                    <AlertDialogAction>Continue</AlertDialogAction>
+                </AlertDialogFooter>
+            </AlertDialogContent>
+        </AlertDialog>
       </div>
     </div>
   );
