@@ -15,7 +15,7 @@ export default function Hero() {
                 <div className="flex justify-between md:justify-start md:space-x-16 items-center font-SpaceMono">
                     <div>
                         <h2 className="font-bold text-2xl md:text-3xl">240k+</h2>
-                        <p className='font-WorkSans text-xl '>Total sale</p>
+                        <p className='font-WorkSans text-xl '>Total Sale</p>
                     </div>
                     <div>
                         <h2 className="font-bold text-2xl md:text-3xl">100k+</h2>
